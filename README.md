@@ -1,59 +1,48 @@
-# 🎬 IMDB Sentiment Analyzer using Bidirectional LSTM
+# 🎬**IMDB Sentiment Analyzer: Classifying Movie Reviews**
 
-This project implements a sentiment analysis model using Bidirectional LSTM on the IMDB 50K movie review dataset. It classifies reviews as **positive** or **negative**, serving as a core component for a larger movie recommendation system.
+This repository contains a **Bidirectional LSTM-based deep learning model** designed to classify **IMDB movie reviews** as **positive or negative**. It processes user reviews, trains on labeled data, and evaluates model performance through visualizations and metrics.
 
----
+## **Key Features**
+- **Data Preprocessing:** Tokenizes reviews, removes noise, and converts text into padded sequences.
+- **Model Architecture:** Uses **Bidirectional LSTM** with dropout and L2 regularization for context-aware sentiment learning.
+- **Performance Evaluation:** Tracks **accuracy, loss, confusion matrix, and classification report**.
+- **Prediction Function:** Accepts custom user reviews and returns real-time sentiment prediction.
+- **Visualization:** Includes **accuracy/loss graphs** and a **confusion matrix heatmap** for easy interpretation.
 
-## 🔑 Key Features
+## **Technology Used**
+### **Languages & Libraries**
+- **Python**
+- **TensorFlow / Keras** (Model building and training)
+- **Pandas & NumPy** (Data Handling)
+- **Matplotlib & Seaborn** (Data Visualization)
+- **Scikit-learn** (Evaluation metrics)
 
-- ✅ IMDB 50K dataset support (positive/negative reviews)
-- ✅ Bidirectional LSTM architecture for deeper context understanding
-- ✅ Tokenization and sequence padding with Keras
-- ✅ Evaluation via Accuracy, Loss, Classification Report & Confusion Matrix
-- ✅ Pre-trained model ready for deployment or integration
-- ✅ Visual plots of training & validation metrics
+### **APIs & Tools**
+- **Kaggle API** (Dataset download)
+- **Google Colab / Jupyter Notebook** (Training & experimentation)
 
----
+## 📊**Model Performance**
+- **Training Accuracy:** ~90%
+- **Validation Accuracy:** ~88%  
+- **Loss Function:** Binary Crossentropy (from logits)
+- **Confusion Matrix:** Displays true vs predicted labels.
+- **Classification Report:** Includes precision, recall, and F1-score.
 
-## 🛠️ Tech Stack
+## 📈**Visualization**
+The project includes:
 
-- **Python** (3.8+)
-- **TensorFlow / Keras**
-- **Pandas, NumPy**
-- **Matplotlib, Seaborn**
-- **Scikit-learn**
-- **Google Colab** (for training and visualization)
-- **Jupyter Notebook (.ipynb)**
+- 🔹**Accuracy Graph:** Comparison of training vs validation accuracy.  
+  ![Accuracy Plot](accuracy_plot.png)
 
----
+- 🔹**Loss Graph:** Training and validation loss over epochs.  
+  ![Loss Plot](loss_plot.png)
 
-## 📊 Model Performance
+- 🔹**Confusion Matrix Heatmap:** Detailed analysis of predictions.  
+  ![Confusion Matrix](confusion_matrix.png)
 
-| Metric              | Value     |
-|---------------------|-----------|
-| Train Accuracy       | ~90%      |
-| Validation Accuracy  | ~88–89%   |
-| Loss                | Binary Crossentropy (from_logits=True) |
-| Optimizer           | Adam      |
-
----
-
-## 📈 Visualizations
-
-### 🔹 Accuracy and Loss Curves
-
-![Accuracy Plot](accuracy_plot.png)  
-![Loss Plot](loss_plot.png)
-
-### 🔹 Confusion Matrix
-
-![Confusion Matrix](confusion_matrix.png)
-
----
-
-## 🚀 Installation & Usage
-
-### 🔧 Clone the repository
-```bash
-git clone https://github.com/<your-username>/imdb-sentiment-analyzer.git
-cd imdb-sentiment-analyzer
+## **Installation & Usage**
+### **Installation**
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/imdb-sentiment-analyzer.git
+   cd imdb-sentiment-analyzer
