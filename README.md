@@ -31,13 +31,13 @@ This repository contains a **Bidirectional LSTM-based deep learning model** desi
 ## 📈**Visualization**
 The project includes:
 
-- 🔹**Accuracy Graph:** Comparison of training vs validation accuracy.  
+🔹**Accuracy Graph:** Comparison of training vs validation accuracy.  
   ![Accuracy Plot](accuracy_plot.png)
 
-- 🔹**Loss Graph:** Training and validation loss over epochs.  
+🔹**Loss Graph:** Training and validation loss over epochs.  
   ![Loss Plot](loss_plot.png)
 
-- 🔹**Confusion Matrix Heatmap:** Detailed analysis of predictions.  
+🔹**Confusion Matrix Heatmap:** Detailed analysis of predictions.  
   ![Confusion Matrix](confusion_matrix.png)
 
 ## **Installation & Usage**
