@@ -47,7 +47,7 @@ This project implements a sentiment analysis model using Bidirectional LSTM on t
 
 ### 🔹 Confusion Matrix
 
-![Confusion Matrix](confusion_matrix(2).png)
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
